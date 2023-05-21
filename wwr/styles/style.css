@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rock+Salt&family=Wix+Madefor+Display:wght@500;800&display=swa');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -26,11 +29,15 @@ main section{
 }
 
 body {
-    background-color: #36454F; 
+    background-color: #36454F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color:#457b9d;
+    background-color:#396E94;
 }
 
 nav a:hover {
@@ -40,6 +47,9 @@ nav a:hover {
 
 .home-title{
     color: whitesmoke;
+    font-family: 'Wix Madefor Display', 'Rock Salt', 'Montserrat';
+    font-size: 2em;
+    margin-top: 10px; 
 }
 
 h4 {
@@ -47,25 +57,36 @@ h4 {
 }
 
 .book, .join {
-    color: #E1C21B;
+    color: #457b9d;
+    font-weight: bold;
     text-decoration: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    background-color: #E1C21B;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: #457b9d;
-    color: white
+    color: #36454F;
 }
 
 .msg h2 {
     color: whitesmoke;
+    font-family: 'Wix Madefor Display', 'Rock Salt', 'Montserrat';
 }
 
 .msg p {
-    color: whitesmoke
+    color: whitesmoke;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     color: whitesmoke;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -84,6 +105,7 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -97,4 +119,39 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+.msg {
+  background-color: #396E94;
+  line-height: 1.5em;
+  padding: 35px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+/* 
+* {
+    border: 2px solid blue;
+}
+
 

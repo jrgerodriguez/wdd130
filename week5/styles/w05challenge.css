@@ -1,0 +1,23 @@
+.circles{
+    display: block;
+    width: 100%;    
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+div img {
+    display: inline-block;
+    width: 18%;
+    margin: 60px 60px;
+    border-radius: 100%;
+    border: 10px solid #383838	;
+}
+

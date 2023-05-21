@@ -1,30 +1,38 @@
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 
 img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
+    border-radius: 10px;
 }
 
 a {
     font-size: 1.5em;
     color: white;
-    margin: 10px;
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 10px; /* to have rounded corners */
+    border: 1px solid whitesmoke;
 }
 
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
 nav, footer {
     background-color: steelblue;
     color: white;
-    padding: 10px;
     text-align: center;
     width: 100%
+    
     
 }
 
@@ -36,6 +44,28 @@ main p {
 }
 
 a:hover {
-    background-color: white;
-    color: steelblue;
+    background-color: #002D62;
+    opacity: 1;
+    color: whitesmoke;
 }
+
+footer {
+    background-color: #0a2351;
+    color: white;
+}
+
+nav {
+    background-color: #0a2351;
+    padding: 25px;
+}
+
+body {
+    margin: 0
+}
+
+/*
+
+* {
+    border: 2px solid blue;
+} */
+
