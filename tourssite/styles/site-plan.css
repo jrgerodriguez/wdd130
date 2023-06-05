@@ -36,6 +36,12 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
+.logo {
+  width: 25%;
+  height: 25%;
+}
+
 img {
   display: block;
   margin: 0 auto;
