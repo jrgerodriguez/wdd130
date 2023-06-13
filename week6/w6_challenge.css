@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.white-sqr {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    
+}
+
+.gray-sqr {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: gray;
+}
+
+img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
