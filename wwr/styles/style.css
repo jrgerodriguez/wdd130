@@ -373,10 +373,10 @@ nav{
     #hero-msg, #herorates-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #hero-msg h4, .rates-title2 {
         display: none;
     }
-    .home-title, .rates-title, .rates-title2 {
+    .home-title, .rates-title {
         font-size: 25px;
         color: #6f7364;
     }
