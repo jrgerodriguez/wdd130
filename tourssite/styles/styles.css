@@ -203,3 +203,44 @@ main {
     background-color: #F1A208;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #254D32;   
+    margin-top: 100px;
+    opacity: 0.8;
+}
+
+footer p {
+    margin-left: 3em;
+    font-family: Poppins, Geologica;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer p a {
+    font-family: Poppins, Geologica;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 600px;
+    padding: 25px
+}
+
+footer p a:hover {
+    color: white;
+    background-color: #3A7D44;
+}
+
+.social {
+    margin-right: 3em;
+    padding-top: 5px;
+    justify-content: space-around;
+}
+
+.social a img{
+    border-radius: 10px;
+    padding: 1px;
+}
