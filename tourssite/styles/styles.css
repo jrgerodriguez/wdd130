@@ -24,7 +24,7 @@ body {
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 828px) {
     .nav_bar{
         flex-direction: row;
         justify-content: start;
@@ -42,7 +42,7 @@ body {
     background-color: #254D32;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 828px) {
     .nav_bar a{
         margin: 0 20px;
         background-color: transparent;
@@ -67,10 +67,10 @@ body {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 828px) {
     .container img{
         margin-top: -300px;
-        max-width: 1600px;
+        max-width: 1800;
     }
 }
 
