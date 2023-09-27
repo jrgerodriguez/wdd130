@@ -34,10 +34,9 @@ body {
 .nav_bar a {
     text-decoration: none;
     color: whitesmoke;
-    font-family: Poppins, Geologica;
+    font-family: 'Inter', sans-serif;
     padding: 25px 16px; 
     font-size: 18px;  
-    font-weight: bold;
     display: block;
     background-color: #254D32;
 }
