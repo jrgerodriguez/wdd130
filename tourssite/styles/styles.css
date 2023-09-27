@@ -23,7 +23,7 @@ body {
 .principal {
     display: flex;
     flex-direction: column;
-    text-decoration: overline;    
+    text-decoration: underline;    
     margin-top: 1.5rem;
     max-width: 120rem;
     margin: 0 auto;
