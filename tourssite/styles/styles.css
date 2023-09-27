@@ -13,24 +13,22 @@ body {
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    height: 60px;
-    align-items: center;
-    overflow: hidden;
-    background-color: #254D32;
-    opacity: 0.8;
-}
-
 .logo {
     width: 200px;
-    padding-top: 5px;
+    height: 175px;
 }
 
 .nav_bar {
-    margin-left: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-right: 25px;
+}
+
+@media (min-width: 768px) {
+    .nav_bar{
+        flex-direction: row;
+        justify-content: start;
+    }
 }
 
 .nav_bar a {
@@ -40,11 +38,20 @@ header {
     padding: 25px 16px; 
     font-size: 18px;  
     font-weight: bold;
+    display: block;
+    background-color: #254D32;
+}
+
+@media (min-width: 768px) {
+    .nav_bar a{
+        margin: 0 20px;
+        background-color: transparent;
+    }
+    
 }
 
 .nav_bar a:hover {
-    color: whitesmoke;
-    background-color: #3A7D44; 
+    color: #F1A208; 
 }
 
 .container {
@@ -54,11 +61,17 @@ header {
 }
 
 .container img {
-    width: 100%;
+    height: 100%;
     filter: brightness(40%);
     z-index: -1;
-    position:static;
-    margin-top: -250px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container img{
+        margin-top: -300px;
+        max-width: 1600px;
+    }
 }
 
 .text {
